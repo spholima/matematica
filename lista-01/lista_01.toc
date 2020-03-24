@@ -1,0 +1,8 @@
+\babel@toc {portuguese}{}
+\contentsline {section}{\numberline {1}N\IeC {\'u}meros naturais}{1}% 
+\contentsline {section}{\numberline {2}N\IeC {\'u}meros inteiros}{1}% 
+\contentsline {subsection}{\numberline {2.1}Adi\IeC {\c c}\IeC {\~a}o de inteiros}{1}% 
+\contentsline {subsubsection}{\numberline {2.1.1}Inteiros de mesmo sinal}{1}% 
+\contentsline {subsubsection}{\numberline {2.1.2}Inteiros de sinais diferentes}{1}% 
+\contentsline {section}{\numberline {3}Quest\IeC {\~o}es para treinamento}{1}% 
+\contentsline {section}{\numberline {4}Gabarito}{4}% 

@@ -1,0 +1,320 @@
+\documentclass{exam}
+
+%....................................
+% PACOTES USADOS
+%....................................
+
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage[list-final-separator={ e }, output-decimal-marker={,}]{siunitx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{lmodern}
+\usepackage{xpatch}
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{multicol, setspace}
+\usepackage{indentfirst}
+\usepackage{parskip}
+\usepackage{amssymb, amsmath, amsfonts, dsfont}
+\usepackage{makeidx}
+\usepackage[sharp]{easylist}
+
+%\usepackage{textcomp}
+
+%....................................
+% OUTRAS CONFIGURAÇÕES
+%....................................
+
+
+\pagestyle{headandfoot}
+
+%\runningfootrule
+
+\firstpageheader{\texttt{spholima@gmail.com}}{}{\includegraphics[scale=.9]{by-nc-sa}}
+\runningheader{\textsc{Números inteiros}}{}{\includegraphics[scale=.9]{by-nc-sa}}
+\firstpagefooter{}
+	{\textsc{\thepage}}
+	{}
+\runningfooter{}
+	{\textsc{\thepage}}
+	{}
+
+\geometry{a4paper,
+	top=2.5cm,
+	bottom=2.5cm,
+	left=1.5cm,
+	right=1.5cm
+}
+\columnsep=0.8cm
+
+%....................................
+% CONFIGURAÇÕES DA CLASSE EXAM
+%....................................
+\renewcommand{\thequestion}{\bf \arabic{question}}
+\renewcommand{\choicelabel}{{\bf (\thechoice)}}
+\pointpoints{ponto}{pontos}
+\pointformat{[\bf \thepoints]}
+
+
+
+%....................................
+% INÍCIO DO DOCUMENTO
+%....................................
+
+\begin{document}
+
+	\begin{center}
+\large{\textsc{Tópico 01 - Números inteiros\\
+Março de 2020\\ (em plena crise do corona vírus$\ldots$)}}
+	\end{center}
+
+%\maketitle
+	
+	\begin{multicols*}{2}
+	\setlength{\columnseprule}{1pt}
+
+
+\tableofcontents
+
+\section{Números naturais}
+
+Representado por $\mathbb{N}$, é o conjunto dos números inteiros positivos maiores que zero, incluindo o número zero.
+
+\begin{center}
+	$\mathbb{N} = \{0,\, 1,\, 2,\, 3,\, 4,\, 5,\, 6,\, 7,\, 8,\, 10,\, 11,\, 12,\, \ldots\}$
+\end{center}
+
+Denota-se por $\mathbb{N^*}$ o conjunto composto apenas pelos números inteiros positivos. Este conjunto, semelhante ao conjunto dos números naturais, difere do primeiro por não conter o número zero em sua lista de elementos.
+
+\begin{center}
+	$\mathbb{N^*} = \{1,\, 2,\, 3,\, 4,\, 5,\, 6,\, 7,\, 8,\, 10,\, 11,\, 12,\, \ldots\}$	
+\end{center}
+
+
+
+\section{Números inteiros}
+
+Representado por $\mathbb{Z}$, é uma extensão dos números naturais, incluindo também os números negativos em sua lista de elementos. Nesse conjunto, para cada número natural positivo, existirá o seu simétrico negativo. Para o $1$, $-1$; para o $2$, $-2$; para o $3$, $-3$ e assim por diante.
+
+\begin{center}
+	$\mathbb{Z} = \{\ldots,\, -4,\, -3,\, -2,\, -1,\, 0,\, 1,\, 2,\, 3,\, 4,\, \ldots\}$	
+\end{center}
+
+Do mesmo modo que fizemos para o conjunto $\mathbb{N^*}$, denotamos por $\mathbb{Z^*}$ o conjunto dos números inteiros sem a presença do zero em sua lista de elementos.
+
+\begin{center}
+	$\mathbb{Z^*} = \{\ldots,\, -4,\, -3,\, -2,\, -1,\, 1,\, 2,\, 3,\, 4,\, \ldots\}$	
+\end{center}
+
+
+Quando o número é \textit{positivo}, ao escrevê-lo, não precisamos obrigatoriamente indicar o seu sinal. Por exemplo, $+20 = 20$.
+
+Já para os números \textit{negativos}, é sempre obrigatório a indicação do sinal.
+
+
+	\subsection{Adição de inteiros}
+
+		\subsubsection{Inteiros de mesmo sinal}
+		
+		Para adicionar dois números de mesmo sinal, é preciso somar os valores e atribuir ao resultado o mesmo sinal dos números somados.
+		
+		\textbf{Exemplos:}
+		
+		\begin{easylist}[enumerate]
+			## $(-15)+(-20)=-35$
+			## $(-10)+(-50)=-60$
+			## $(-3)+(-2)=-5$
+			## $30+40=70$
+			## $9+8=17$
+			## $(+15)+(+5) = 15+5 = 20$
+			## $(-7)+(-3)= -7+(-3)=-10$
+						
+		\end{easylist}
+		
+
+		\subsubsection{Inteiros de sinais diferentes}
+		
+		Para somar dois números inteiros, de sinais contrários, basta subtrair o maior deles pelo menor e atribuir ao resultado o sinal do maior número.
+		
+		\textbf{Exemplos:}
+		
+		\begin{easylist}[enumerate]
+			## $(-15)+(+20)=+5$
+			## $(-30)+(+20)=-10$
+			## $(-50)+(+20)=-30$
+			## $(+40)+(-30)=+10$
+			## $(-30)+(+40)=+10$			
+				
+		\end{easylist}
+
+\input{questoes_lista01}
+
+	\end{multicols*}
+
+\newpage
+\section{Gabarito}
+
+\begin{multicols*}{4}
+\setlength{\columnseprule}{1pt}
+\begin{enumerate}
+
+\item 	a) $-9$ \\
+		b) $-8$ \\
+		c) $8$ \\
+		d) $-9$ \\
+		e) $28$ \\
+		f) $-25$ \\
+		g) $-46$ \\
+		h) $-46$ \\
+		i) $16$ \\
+		j) $-38$ \\
+		k) $-27$ \\
+		l) $10$ \\
+		m) $-45$ \\
+		n) $-62$ \\
+		o) $7$ \\
+		p) $-32$ \\
+		q) $76$ \\
+		r) $-75$ \\
+		s) $90$ \\
+		t) $-25$ \\
+		
+\item 	a) $-7$ \\
+		b) $-6$ \\
+		c) $9$ \\
+		d) $-7$ \\
+		e) $18$ \\
+		f) $-29$ \\
+		g) $-45$ \\
+		h) $-56$ \\
+		i) $13$ \\
+		j) $-33$ \\
+		k) $-28$ \\
+		l) $15$ \\
+		m) $-45$ \\
+		n) $-55$ \\
+		o) $9$ \\
+		p) $-25$ \\
+		q) $54$ \\
+		r) $-55$ \\
+		s) $70$ \\
+		t) $-38$ \\
+
+\item 	a) $3$ \\
+		b) $-3$ \\
+		c) $1$ \\
+		d) $4$ \\
+		e) $5$ \\
+		f) $18$ \\
+		g) $19$ \\
+		h) $-5$ \\
+		i) $4$ \\
+		j) $-15$ \\
+		k) $-18$ \\
+		l) $3$ \\
+		m) $-8$ \\
+		n) $-6$ \\
+		o) $-3$ \\
+		p) $3$ \\
+		q) $-3$ \\
+		r) $-21$ \\
+		s) $18$ \\
+		t) $-23$ \\
+
+\item 	a) $-4$ \\
+		b) $-6$ \\
+		c) $0$ \\
+		d) $-3$ \\
+		e) $-4$ \\
+		f) $6$ \\
+		g) $8$ \\
+		h) $-8$ \\
+		i) $6$ \\
+		j) $2$ \\
+		k) $-13$ \\
+		l) $-1$ \\
+		m) $-16$ \\
+		n) $-10$ \\
+		o) $-17$ \\
+		p) $27$ \\
+		q) $-12$ \\
+		r) $-31$ \\
+		s) $39$ \\
+		t) $8$ \\
+
+
+\item 	a) $-3$ \\
+		b) $-3$ \\
+		c) $1$ \\
+		d) $-2$ \\
+		e) $-5$ \\
+		f) $27$ \\
+		g) $17$ \\
+		h) $6$ \\
+		i) $4$ \\
+		j) $-19$ \\
+		k) $-15$ \\
+		l) $5$ \\
+		m) $-14$ \\
+		n) $-11$ \\
+		o) $-3$ \\
+		p) $29$ \\
+		q) $42$ \\
+		r) $-46$ \\
+		s) $17$ \\
+		t) $-25$ \\
+
+
+\item 	a) $23$ \\
+		b) $-27$ \\
+		c) $9$ \\
+		d) $0$ \\
+		e) $-39$ \\
+		f) $18$ \\
+		g) $-11$ \\
+		h) $-47$ \\
+		i) $4$ \\
+		j) $-39$ \\
+		k) $-25$ \\
+		l) $-28$ \\
+		m) $-38$ \\
+		n) $34$ \\
+		o) $58$ \\
+		p) $-15$ \\
+		q) $-23$ \\
+		r) $-92$ \\
+		s) $-92$ \\
+		t) $-21$ \\
+
+
+\item 	a) $40$ \\
+		b) $-44$ \\
+		c) $11$ \\
+		d) $3$ \\
+		e) $-51$ \\
+		f) $12$ \\
+		g) $19$ \\
+		h) $-43$ \\
+		i) $4$ \\
+		j) $-74$ \\
+		k) $-27$ \\
+		l) $-54$ \\
+		m) $-62$ \\
+		n) $19$ \\
+		o) $43$ \\
+		p) $53$ \\
+		q) $-38$ \\
+		r) $-124$ \\
+		s) $-37$ \\
+		t) $11$ \\
+
+\end{enumerate}
+\end{multicols*}
+
+
+
+
+\end{document}
