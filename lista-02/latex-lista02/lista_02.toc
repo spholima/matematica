@@ -1,0 +1,11 @@
+\babel@toc {portuguese}{}
+\contentsline {section}{\numberline {1}Momento netflix}{1}{section.1}% 
+\contentsline {section}{\numberline {2}Representa\IeC {\c c}\IeC {\~a}o na reta num\IeC {\'e}rica}{1}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Outras nota\IeC {\c c}\IeC {\~o}es}{1}{subsection.2.1}% 
+\contentsline {section}{\numberline {3}Compara\IeC {\c c}\IeC {\~a}o de inteiros}{1}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Subtra\IeC {\c c}\IeC {\~a}o de inteiros}{1}{subsection.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}M\IeC {\'o}dulo (ou valor absoluto)}{1}{subsubsection.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Sim\IeC {\'e}trico (ou oposto)}{2}{subsubsection.3.1.2}% 
+\contentsline {section}{\numberline {4}Quest\IeC {\~o}es para treinamento}{2}{section.4}% 
+\contentsline {section}{\numberline {5}Problemas}{3}{section.5}% 
+\contentsline {section}{\numberline {6}Gabarito}{5}{section.6}% 
